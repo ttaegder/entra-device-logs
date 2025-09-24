@@ -1,4 +1,13 @@
-﻿# PowerShell script to run MDM diagnostics, registry export, dsregcmd export, install AzCopy, compress data staging folder, and upload to Azure File share. Script will clean up zip and remove azcopy after upload.
+# QUEST SOFTWARE INC. MAKES NO REPRESENTATIONS OR WARRANTIES
+# ABOUT THE SUITABILITY OF THE SOFTWARE, EITHER EXPRESS
+# OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+# WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+# PARTICULAR PURPOSE, OR NON-INFRINGEMENT. QUEST SOFTWARE SHALL
+# NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
+# AS A RESULT OF USING, MODIFYING OR DISTRIBUTING
+# THIS SOFTWARE OR ITS DERIVATIVES.
+ 
+ # PowerShell script to run MDM diagnostics, registry export, dsregcmd export, install AzCopy, compress data staging folder, and upload to Azure File share. Script will clean up zip and remove azcopy after upload.
 
 # Set the Azure File share destination with SAS token here
 # Example: "https://yourstorageaccount.file.core.windows.net/yourshare/yourfolder?sv=...&sig=..."
