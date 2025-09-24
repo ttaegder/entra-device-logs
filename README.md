@@ -1,3 +1,15 @@
+QUEST SOFTWARE INC. MAKES NO REPRESENTATIONS OR WARRANTIES
+ABOUT THE SUITABILITY OF THE SOFTWARE, EITHER EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, OR NON-INFRINGEMENT. QUEST SOFTWARE SHALL
+NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE
+AS A RESULT OF USING, MODIFYING OR DISTRIBUTING
+THIS SOFTWARE OR ITS DERIVATIVES.
+
+# Summary
+The purpose of the steps and scripts below are to gather logs pertaining to the Entra ID join process from an end-user device, upload the logs to an Azure File Share, then process the logs from a Migration Administrator workstation where they can be manually analyzed or sent to ChatGPT for AI analysis.
+
 # Create Azure File Share
 
 1. Create Azure Resource group
