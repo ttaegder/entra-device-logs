@@ -1,1 +1,0 @@
-# entra-device-logs
