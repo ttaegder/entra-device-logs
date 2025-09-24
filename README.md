@@ -10,11 +10,10 @@
 
 Here are a couple of screenshots that can be used as guidance for creating the limited "Write Only" SAS key:
 
-![[CreateSASwriteOnly.png]]
-![[SASwriteString.png]]
+<img width="1223" height="921" alt="CreateSASwriteOnly" src="https://github.com/user-attachments/assets/df2c9ef7-7324-41e0-8486-44c2d5c4d1e3" />
+<img width="1640" height="462" alt="SASwriteString" src="https://github.com/user-attachments/assets/8502d8a7-cbfa-468d-8c1d-e4938107d4d9" />
 
-
-# MDM Diagnostics and File Upload Script
+# MDM Diagnostics and File Upload Script (GetMDMLogs.ps1)
 
 ## Overview
 This PowerShell script automates the collection of MDM diagnostics, registry data, and device status, compresses the collected files, and uploads them to an Azure File Share. It is designed to assist in gathering diagnostic information for Intune/Entra ID/Autopilot configurations, handling open files using Volume Shadow Copy, and cleaning up temporary files after execution.
@@ -65,7 +64,7 @@ For issues, review console output for error messages or enable `$CreateExportLog
 
 
 
-# Azure File Share Log Processing Script
+# Azure File Share Log Processing Script (ProcessMDMLogs.ps1)
 
 ## Overview
 This PowerShell script automates the processing of ZIP files containing Windows event logs, registry exports, and dsregcmd status outputs stored in an Azure File Share. It downloads, extracts, converts event logs to CSV, and optionally sends data to OpenAI's ChatGPT for analysis of Entra ID/Intune join failures. The script generates an HTML report for each processed ZIP and moves the ZIP to a "processed" folder in the Azure File Share.
